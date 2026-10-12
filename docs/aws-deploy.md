@@ -1,7 +1,7 @@
 # AWS EC2 に公開する手順
 
-講義 [TypeScript をサーバーで動かす](https://yoshito.me/learn/deploy/) をなぞって公開するときのチェックリスト。
-詳しい説明は講義ノートのほうにある。EC2 の借り方は [クラウドの VM](https://yoshito.me/learn/cloud-vm/)。
+解説スライド [TypeScript をサーバーで動かす](https://yoshito.me/learn/deploy/) をなぞって公開するときのチェックリスト。
+詳しい説明は解説スライドのほうにある。EC2 の借り方は [クラウドの VM](https://yoshito.me/learn/cloud-vm/)。
 
 ```
 ブラウザ → DNS → セキュリティグループ(22/80/443) → nginx(80/443) → node(127.0.0.1:3000) → dist/server.js
@@ -18,7 +18,7 @@
 ```sh
 ssh -i ~/.ssh/<鍵>.pem ubuntu@<EC2のIP>
 sudo apt update && sudo apt upgrade -y
-# Node.js（LTS）を入れる。入れ方は講義ノートの 2 章
+# Node.js（LTS）を入れる。入れ方は解説スライドの 2 章
 git clone https://github.com/YoshitoSuzuki/hello-server.git
 cd hello-server
 npm ci

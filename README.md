@@ -3,7 +3,7 @@
 `/api/hello` にアクセスすると、メッセージと現在時刻を JSON で返すだけの小さな HTTP サーバー。
 TypeScript と Node.js 標準の `node:http` だけで書いている。
 
-[yoshito.me の講義ノート](https://yoshito.me/learn/) の
+[yoshito.me の解説スライド「Git からサーバー公開まで」](https://yoshito.me/learn/) の
 [TypeScript 入門](https://yoshito.me/learn/typescript/) で作り、
 [TypeScript をサーバーで動かす](https://yoshito.me/learn/deploy/) で AWS EC2 に公開する練習用。
 
